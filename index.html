@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>卡兹克内容分类目录</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>卡兹克内容分类目录</h1>
+    <div class="sub" id="subtitle">正在加载目录…</div>
+    <div class="stats" id="stats"></div>
+    <p class="note" id="coverage" hidden></p>
+    <details class="tax" id="taxonomy" hidden>
+      <summary>体裁与主题定义</summary>
+      <div class="defs" id="defs"></div>
+    </details>
+  </header>
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <input class="search" id="q" type="search" placeholder="搜索标题、摘要、帖子 ID 或链接…" autocomplete="off">
+      <div class="row"><span class="label">体裁</span><div class="chips" id="forms"></div></div>
+      <div class="row"><span class="label">主题</span><div class="chips" id="topics"></div></div>
+      <div class="meta-row">
+        <div>当前显示 <b id="shown">0</b> / <span id="total">0</span>，其中长文 <b id="shown-articles">0</b></div>
+        <label>排序
+          <select class="sort" id="sort">
+            <option value="date-desc">日期新→旧</option>
+            <option value="date-asc">日期旧→新</option>
+            <option value="likes-desc">赞数高→低</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </div>
+  <main id="list"><div class="loading">正在加载目录…</div></main>
+  <footer id="footer"></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
