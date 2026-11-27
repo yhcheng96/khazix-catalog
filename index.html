@@ -3,39 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>卡兹克内容分类目录</title>
-  <link rel="stylesheet" href="css/app.css">
+  <meta name="theme-color" content="#6642b8">
+  <meta name="description" content="按主题与体裁，探索卡兹克的 AI 测评、工具分享与工作方法。">
+  <title>卡兹克 · 内容目录</title>
+  <link rel="stylesheet" href="css/app.css?v=20261127-2">
 </head>
 <body>
-  <header class="hero">
-    <h1>卡兹克内容分类目录</h1>
-    <div class="sub" id="subtitle">正在加载目录…</div>
-    <div class="stats" id="stats"></div>
-    <p class="note" id="coverage" hidden></p>
-    <details class="tax" id="taxonomy" hidden>
-      <summary>体裁与主题定义</summary>
-      <div class="defs" id="defs"></div>
-    </details>
+  <a class="skip" href="#results">跳到内容</a>
+  <header class="masthead wrap">
+    <a class="brand" href="./" aria-label="卡兹克内容目录首页"><span class="brand-mark" aria-hidden="true">K</span><span>卡兹克<span class="brand-sub">内容目录</span></span></a>
+    <a class="source-link" href="https://x.com/Khazix0918" target="_blank" rel="noopener noreferrer">在 X 上关注 @Khazix0918 <span aria-hidden="true">↗</span></a>
   </header>
-  <div class="toolbar">
-    <div class="toolbar-inner">
-      <input class="search" id="q" type="search" placeholder="搜索标题、摘要、帖子 ID 或链接…" autocomplete="off">
-      <div class="row"><span class="label">体裁</span><div class="chips" id="forms"></div></div>
-      <div class="row"><span class="label">主题</span><div class="chips" id="topics"></div></div>
-      <div class="meta-row">
-        <div>当前显示 <b id="shown">0</b> / <span id="total">0</span>，其中长文 <b id="shown-articles">0</b></div>
-        <label>排序
-          <select class="sort" id="sort">
-            <option value="date-desc">日期新→旧</option>
-            <option value="date-asc">日期旧→新</option>
-            <option value="likes-desc">赞数高→低</option>
-          </select>
-        </label>
+  <section class="hero wrap" aria-labelledby="intro-title">
+    <div><p class="intro-label">一个关于 AI 的持续探索</p><h1 id="intro-title">好内容，值得再找到。</h1><p class="intro-copy">从模型测评到创作实践，按你关心的主题，重新发现卡兹克的公开分享。</p></div>
+    <div class="stats" id="stats" aria-label="目录统计"></div>
+  </section>
+  <div class="workspace wrap">
+    <aside class="sidebar" aria-label="主题筛选">
+      <details class="topic-panel" id="topic-panel" open>
+        <summary>探索主题 <span id="mobile-topic">全部主题</span></summary>
+        <div class="chips topic-chips" id="topics"></div>
+        <p class="side-note">同时检索主主题与次要主题。<br>数量为当前关键词与体裁下的匹配数。</p>
+      </details>
+      <div class="sidebar-note"><span class="little-star" aria-hidden="true">✳</span><p>在信息流之外，<br>留一份可回查的目录。</p><a href="#about">关于这份目录</a></div>
+    </aside>
+    <main id="results" tabindex="-1">
+      <div class="search-box" role="search">
+        <label class="sr-only" for="q">搜索目录</label>
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <input id="q" type="search" placeholder="搜索标题、摘要、关键词或帖子 ID" autocomplete="off" disabled>
+        <span class="search-key" aria-hidden="true">/</span>
       </div>
-    </div>
+      <div class="forms-row"><span class="sr-only">体裁筛选</span><div class="chips form-chips" id="forms" aria-label="体裁筛选"></div></div>
+      <div class="results-heading"><div><h2 id="result-title">全部内容</h2><p id="result-count" role="status" aria-live="polite">正在加载目录…</p></div><label class="sort-label" for="sort">排序 <select id="sort" disabled><option value="date-desc">最新发布</option><option value="date-asc">最早发布</option><option value="likes-desc">赞数最多</option></select></label></div>
+      <div class="active-filters" id="active-filters" hidden><span id="filter-description"></span><button id="reset" type="button">清空筛选</button></div>
+      <div id="list" aria-busy="true"><div class="loading">正在整理阅读列表…</div></div>
+      <nav class="pagination" id="pagination" aria-label="内容分页" hidden><button id="prev" type="button">上一页</button><span id="page-info"></span><button id="next" type="button">下一页</button></nav>
+    </main>
   </div>
-  <main id="list"><div class="loading">正在加载目录…</div></main>
-  <footer id="footer"></footer>
-  <script src="js/app.js"></script>
+  <section class="about wrap" id="about"><details><summary>关于目录与收录范围</summary><p id="subtitle">正在加载数据来源…</p><p id="coverage"></p><div id="stats-detail"></div></details><details id="taxonomy"><summary>体裁与主题如何划分？</summary><div class="defs" id="defs"></div></details></section>
+  <footer class="wrap"><span>卡兹克内容目录</span><span id="footer">公开分享，按主题归档。</span><a href="#">回到顶部 ↑</a></footer>
+  <noscript><p class="error">请启用 JavaScript 以加载和筛选目录。</p></noscript>
+  <script src="js/app.js?v=20261127-2"></script>
 </body>
 </html>
