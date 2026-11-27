@@ -1,10 +1,10 @@
 {
   "source": "@Khazix0918",
   "timezone": "Asia/Shanghai",
-  "checked_at": "2026-11-26 16:24",
-  "newest_post_id": "2125803873575284892",
+  "checked_at": "2026-11-27 16:21",
+  "newest_post_id": "2126163343023263893",
   "oldest_post_id": "2010583610324140081",
-  "coverage_note": "覆盖公开接口可见的 @Khazix0918 非转发帖，时间范围 2026-01-12 13:24 至 2026-11-26 12:08（Asia/Shanghai）。共入库 871 条（已合并 74 条同一帖的编辑快照；原始抓取 911 条，此后按例行监控新增 34 条）。账号公开 tweet_count 约 953；对 2026-01-12 之前、以及转发（is:retweet）的搜索与时间线查询均返回空，差额可能来自转发、已删除帖或接口不可见的更早内容，不编造未拉到的帖。2026-01-12 至 2026-11-18 期间按月分页已翻到没有 next_token；用户时间线交叉核对补上了少量搜索遗漏。X Article 均已回填标题、preview 与 article id。2026-11-19 起按例行监控追加新帖。",
+  "coverage_note": "覆盖公开接口可见的 @Khazix0918 非转发帖，时间范围 2026-01-12 13:24 至 2026-11-27 11:56（Asia/Shanghai）。共入库 872 条（已合并 74 条同一帖的编辑快照；原始抓取 911 条，此后按例行监控新增 35 条）。账号公开 tweet_count 约 954；对 2026-01-12 之前、以及转发（is:retweet）的搜索与时间线查询均返回空，差额可能来自转发、已删除帖或接口不可见的更早内容，不编造未拉到的帖。2026-01-12 至 2026-11-18 期间按月分页已翻到没有 next_token；用户时间线交叉核对补上了少量搜索遗漏。X Article 均已回填标题、preview 与 article id。2026-11-19 起按例行监控追加新帖。",
   "taxonomy": {
     "forms": [
       {
@@ -68,25 +68,25 @@
   },
   "counts": {
     "by_form": {
-      "article": 188,
+      "article": 189,
       "reply": 435,
       "main": 232,
       "note": 16
     },
     "by_topic": {
+      "tools": 144,
       "workflow": 61,
       "misc": 438,
       "model-review": 105,
       "hiring": 11,
-      "tools": 143,
       "industry": 90,
       "creation": 23
     },
     "by_form_topic": {
       "article": {
+        "tools": 63,
         "workflow": 35,
         "model-review": 25,
-        "tools": 62,
         "industry": 55,
         "creation": 9,
         "hiring": 2
@@ -112,12 +112,24 @@
         "misc": 16
       }
     },
-    "total": 871,
-    "articles": 188,
+    "total": 872,
+    "articles": 189,
     "raw_fetched": 911,
     "edit_snapshots_collapsed": 74
   },
   "items": [
+    {
+      "id": "2126163343023263893",
+      "created_at_shanghai": "2026-11-27 11:56",
+      "form": "article",
+      "topic": "tools",
+      "topic_secondary": "industry",
+      "title": "手把手教你把Skill挂上支付宝挣钱，好手艺不该只有免费开源。",
+      "summary": "昨天有个朋友来问我，说他搓了一个封装了一个他觉得还挺棒的Skill，有没有办法去用Skill变现。",
+      "url": "https://x.com/Khazix0918/status/2126163343023263893",
+      "article_url": "https://x.com/i/article/2126161832415244288",
+      "likes": 310
+    },
     {
       "id": "2125803873575284892",
       "created_at_shanghai": "2026-11-26 12:08",
