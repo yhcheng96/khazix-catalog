@@ -1,10 +1,10 @@
 {
   "source": "@Khazix0918",
   "timezone": "Asia/Shanghai",
-  "checked_at": "2026-11-27 16:21",
-  "newest_post_id": "2126163343023263893",
+  "checked_at": "2026-11-28 10:42",
+  "newest_post_id": "2126330602836349432",
   "oldest_post_id": "2010583610324140081",
-  "coverage_note": "覆盖公开接口可见的 @Khazix0918 非转发帖，时间范围 2026-01-12 13:24 至 2026-11-27 11:56（Asia/Shanghai）。共入库 872 条（已合并 74 条同一帖的编辑快照；原始抓取 911 条，此后按例行监控新增 35 条）。账号公开 tweet_count 约 954；对 2026-01-12 之前、以及转发（is:retweet）的搜索与时间线查询均返回空，差额可能来自转发、已删除帖或接口不可见的更早内容，不编造未拉到的帖。2026-01-12 至 2026-11-18 期间按月分页已翻到没有 next_token；用户时间线交叉核对补上了少量搜索遗漏。X Article 均已回填标题、preview 与 article id。2026-11-19 起按例行监控追加新帖。",
+  "coverage_note": "覆盖公开接口可见的 @Khazix0918 非转发帖，时间范围 2026-01-12 13:24 至 2026-11-27 23:01（Asia/Shanghai）。共入库 876 条（已合并 74 条同一帖的编辑快照；原始抓取 911 条，此后按例行监控新增 39 条）。账号公开 tweet_count 约 958；对 2026-01-12 之前、以及转发（is:retweet）的搜索与时间线查询均返回空，差额可能来自转发、已删除帖或接口不可见的更早内容，不编造未拉到的帖。2026-01-12 至 2026-11-18 期间按月分页已翻到没有 next_token；用户时间线交叉核对补上了少量搜索遗漏。X Article 均已回填标题、preview 与 article id。2026-11-19 起按例行监控追加新帖。",
   "taxonomy": {
     "forms": [
       {
@@ -69,13 +69,13 @@
   "counts": {
     "by_form": {
       "article": 189,
-      "reply": 435,
-      "main": 232,
+      "reply": 437,
+      "main": 234,
       "note": 16
     },
     "by_topic": {
-      "tools": 144,
-      "workflow": 61,
+      "tools": 146,
+      "workflow": 63,
       "misc": 438,
       "model-review": 105,
       "hiring": 11,
@@ -91,33 +91,81 @@
         "creation": 9,
         "hiring": 2
       },
-      "reply": {
-        "misc": 375,
-        "workflow": 11,
-        "model-review": 21,
-        "tools": 18,
-        "industry": 5,
-        "creation": 5
-      },
       "main": {
+        "workflow": 16,
+        "tools": 64,
         "hiring": 9,
-        "workflow": 15,
-        "tools": 63,
         "model-review": 59,
         "industry": 30,
         "creation": 9,
         "misc": 47
       },
+      "reply": {
+        "tools": 19,
+        "workflow": 12,
+        "misc": 375,
+        "model-review": 21,
+        "industry": 5,
+        "creation": 5
+      },
       "note": {
         "misc": 16
       }
     },
-    "total": 872,
+    "total": 876,
     "articles": 189,
     "raw_fetched": 911,
     "edit_snapshots_collapsed": 74
   },
   "items": [
+    {
+      "id": "2126330602836349432",
+      "created_at_shanghai": "2026-11-27 23:01",
+      "form": "reply",
+      "topic": "tools",
+      "topic_secondary": "workflow",
+      "title": "@harsonlooooo 其实GPT的额度用不完了，还剩了重置卡，直接开了个goal烧额度用的= =只是复制到Antigravity做的截图演示，但是真要跑的话，肯定是得Carbon了",
+      "summary": "@harsonlooooo 其实GPT的额度用不完了，还剩了重置卡，直接开了个goal烧额度用的= =只是复制到Antigravity做的截图演示，但是真要跑的话，肯定是得Carbon了",
+      "url": "https://x.com/Khazix0918/status/2126330602836349432",
+      "article_url": null,
+      "likes": 7
+    },
+    {
+      "id": "2126324185626734795",
+      "created_at_shanghai": "2026-11-27 22:36",
+      "form": "main",
+      "topic": "workflow",
+      "topic_secondary": null,
+      "title": "/goal 对整个代码库进行系统性的架构降熵、规范化归一、模块解耦和复杂度治理，将其逐步演进为一个高度规整、极易理解、极易维护、适合大量 Agent 并行开发的工程系统。",
+      "summary": "核心思想：假设今天是这个产品诞生的第一天，但我们已经知道了当前所有真实需求、业务约束和产品形态。思考这个代码库在理想情况下应该是什么样子，然后通过安全、渐进、可验证的重构向该状态收敛。",
+      "url": "https://x.com/Khazix0918/status/2126324185626734795",
+      "article_url": null,
+      "likes": 3691
+    },
+    {
+      "id": "2126301138291232796",
+      "created_at_shanghai": "2026-11-27 21:04",
+      "form": "reply",
+      "topic": "workflow",
+      "topic_secondary": "tools",
+      "title": "@MRCheng64817280 我直接用的我的CLAUDE.md，几乎没啥区别",
+      "summary": "@MRCheng64817280 我直接用的我的CLAUDE.md，几乎没啥区别",
+      "url": "https://x.com/Khazix0918/status/2126301138291232796",
+      "article_url": null,
+      "likes": 3
+    },
+    {
+      "id": "2126294658431201385",
+      "created_at_shanghai": "2026-11-27 20:38",
+      "form": "main",
+      "topic": "tools",
+      "topic_secondary": "workflow",
+      "title": "分享个Antigravity的小技巧。",
+      "summary": "分享个Antigravity的小技巧。就是很多人不喜欢Antigravity的交互方式，就是模型一直闷头思考或者干活，一干就是2、3个小时一点信息不输出，然后突然给你个结论。。。但其实，你只需要在GEMINI.md里加一句话就可以了。",
+      "url": "https://x.com/Khazix0918/status/2126294658431201385",
+      "article_url": null,
+      "likes": 992
+    },
     {
       "id": "2126163343023263893",
       "created_at_shanghai": "2026-11-27 11:56",
